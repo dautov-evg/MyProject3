@@ -8,6 +8,7 @@ import java.io.Serializable;
 @Entity
 @Table(name = "Sensor")
 public class Sensor implements Serializable {
+    // Serializable необходимо для корректной работы, так как связываем таблицы не по id, а по name
     @Id
     @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
