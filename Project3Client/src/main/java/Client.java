@@ -10,7 +10,7 @@ import java.util.Random;
 
 public class Client {
     public static void main(String[] args) {
-        final String sensorName = "Client sensor";
+        final String sensorName = "Client sensor1";
         registerSensor(sensorName);
 
         Random random = new Random();

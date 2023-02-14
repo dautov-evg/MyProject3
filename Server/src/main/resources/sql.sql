@@ -11,5 +11,7 @@ CREATE TABLE Indication(
     sensor varchar(30) references Sensor(name)
 );
 
+SELECT * FROM Indication;
+
 drop table Indication;
 drop table Sensor;
