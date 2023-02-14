@@ -10,3 +10,6 @@ CREATE TABLE Indication(
     indication_date_time timestamp not null,
     sensor varchar(30) references Sensor(name)
 );
+
+drop table Indication;
+drop table Sensor;
