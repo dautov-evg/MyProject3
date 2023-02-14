@@ -18,6 +18,7 @@ public class Indication {
     @Column(name = "value")
     @Min(-100)
     @Max(100)
+    @NotNull
     private double value;
 
     @Column(name = "raining")
